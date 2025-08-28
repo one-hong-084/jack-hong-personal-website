@@ -1,0 +1,17 @@
+/* eslint-env node */
+module.exports = {
+  root: true,
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint", "react", "react-hooks", "import"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "prettier"
+  ],
+  settings: { react: { version: "detect" } },
+  overrides: [{ files: ["*.tsx"], rules: { "react/prop-types": "off" } }]
+};

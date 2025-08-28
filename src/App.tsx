@@ -125,7 +125,7 @@ export default function App() {
       {/* Footer / Contact */}
       <footer id="contact" className="footer">
         <div>
-          <div className="footer__title">联系我</div>
+          <div className="footer__title">联系我！</div>
           <p className="muted">你可以通过以下方式找到我：</p>
           <div className="links">
             <a href="mailto:hello@example.com">hello@example.com</a>
